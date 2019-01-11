@@ -133,7 +133,7 @@ h2 {
   overflow-y: hidden;
 }
 
-#cafe2{
+#cafe2, #kutterlife2 {
   display: none;
 }
 
@@ -270,16 +270,13 @@ h2 {
   float: right;
   z-index: 9999999999999999;
 }
-/* #kutterlife mobil*/
-#kutter {
-  margin-top: 1%;
-  height: 40%;
-}
+
 
 /* tabel */
 table {
   border-collapse: collapse;
   width: 100%;
+    font-family: SegoePrint;
 }
 
 th {
@@ -455,7 +452,7 @@ tr:nth-child(odd) {
   }
 
   /* Væk med "about2" og "cafe2"*/
-  #about2 {
+  #about2, #kutterlife {
     display: none;
   }
 
@@ -520,12 +517,74 @@ tr:nth-child(odd) {
 
   }
   #kutter-desk{
-    width: 60%;
-    margin-left:20%;
-    font-family: SegoePrint;
-    line-height: 20px;
-overflow: auto;
+      position: absolute;
+  padding: 1%;
+  width: 25%;
+  top: 0;
+  left: 65%;
+  font-family: Segoe Print;
+  overflow: auto;
   }
+    
+      .galleri {
+         position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  z-index: 2;
+  top: 0%;
+  left: 0;
+    }
+    
+    /* Slideshow container */
+.slideshow-container {
+   max-width: 45%;
+    margin-left: 10%;
+        margin-top: 11%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(254, 252, 235, 0.5);
+  border-radius: 50%;
+    border: 2px solid #8B4D48;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    
+}
+ 
+    #prikker {text-align: center;
+   max-width: 45%;
+        margin-left: 10%;}
+
+.active {
+  background-color: #FEFCEB;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+    
+    
   #history-desk {
     font-family: SegoePrint;
     line-height: 20px;
@@ -593,7 +652,7 @@ overflow: auto;
     margin-bottom: 6%;
     transform: rotate(12deg);
   }
-  #cafe2{
+  #cafe2, #kutterlife2 {
     display: block;
     z-index: 0;
   }
