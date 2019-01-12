@@ -125,6 +125,7 @@ function showSlides() {
     $('.desktop-vplayer').show().fadeIn();
     $('.videoholder').show().html('<video  preload="auto" autoplay controls><source src="video/handball.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
     console.log('video');
+    
   });
   $('#story2').click(function(){
     $('.desktop-vplayer').show().fadeIn();
@@ -141,6 +142,7 @@ $('.video-close-btn').click(function(){
   $('.desktop-vplayer').fadeOut(500);
   $('.videoholder').html('').hide();
   console.log('closed');
+
 });
 // NOT working in viewport autoplay functionality //
 
