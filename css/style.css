@@ -265,6 +265,12 @@ h2 {
   cursor: pointer;
   float: right;
 }
+.video-close-btn {
+  cursor: pointer;
+  float: right;
+  margin: 2% 2% 0 0;
+  filter: brightness(200%);
+}
 .stop-btn{
   cursor: pointer;
   float: right;
@@ -346,13 +352,34 @@ tr:nth-child(odd) {
   font-family: Ranga;
   font-size: 1.2em;
 }
-
+.desktop-vplayer{
+  display: none;
+  z-index: 99999999999999999999999999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
 @media screen and (min-width:480px){
 
 }
 
 
 @media screen and (min-width:760px){
+  /* Video-popup */
+.vid-btn{
+  cursor: pointer;
+
+}
+.videoholder{
+  width: 70%;
+  margin: 5% 0 0 15%;
+}
+.videoholder video{
+  max-width: 100%;
+}
 
   /* navigation */
   .mobile-nav {

@@ -106,18 +106,32 @@ function showSlides() {
   var slides = document.getElementsByClassName("slideshow");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
+
+// Video afspiller
+
+  $('#story1').click(function(){
+    $('.desktop-vplayer').show().fadeIn();
+    $('.videoholder').html('<video  preload="auto" autoplay controls><source src="video/handball.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
+    console.log('video');
+  });
+
+$('.video-close-btn').click(function(){
+  $('.desktop-vplayer').fadeOut(500);
+  $('.videoholder').html('').hide();
+  console.log('closed');
+});
 // NOT working in viewport autoplay functionality //
 
 /*
