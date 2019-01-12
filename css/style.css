@@ -376,6 +376,8 @@ tr:nth-child(odd) {
 .videoholder{
   width: 70%;
   margin: 5% 0 0 15%;
+  /*border-radius: 100%;
+  overflow: hidden;*/
 }
 .videoholder video{
   max-width: 100%;
@@ -403,6 +405,9 @@ tr:nth-child(odd) {
   .nav:hover {
     cursor: pointer;
     bottom: 0;
+  }
+  .text-field-desktop::-webkit-scrollbar{
+    display: block;
   }
   /* Scrollbar styling */
     ::-webkit-scrollbar{
