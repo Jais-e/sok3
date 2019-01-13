@@ -137,7 +137,7 @@ h2 {
   display: none;
 }
 
-#about2, #cafe, #kutterlife, #where-is-sokrates {
+#about2, #cafe, #kutterlife3 {
   background: url('../images/mobile-cinemagraph-water.jpg') no-repeat;
   background-size: cover;
 }
@@ -469,7 +469,7 @@ tr:nth-child(odd) {
     max-width: 100vw;
     z-index: -1;
   }
-  #about2, #cafe, #kutterlife, #where-is-sokrates {
+  #about2, #cafe, #kutterlife, #where-is-sokrates, #kutterlife3 {
     background: url('../video/cinemagraph-water-compressed.mp4') no-repeat;
     background-size: cover;
   }

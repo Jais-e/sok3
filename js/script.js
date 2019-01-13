@@ -134,7 +134,7 @@ function showSlides() {
   });
   $('#story3').click(function(){
     $('.desktop-vplayer').show().fadeIn();
-    $('.videoholder').show().html('<video  preload="auto" autoplay controls><source src="video/omsokrates-compressed.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
+    $('.videoholder').show().html('<video  preload="auto" autoplay controls><source src="video/julefrokost.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
     console.log('video');
   });
 
