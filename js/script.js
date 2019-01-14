@@ -16,7 +16,11 @@ $(document).ready(function() {
     var x = $(window).width();
     this.scrollLeft -= (delta * x);
     e.preventDefault();
+
   });
+
+  // Allow vertical scroll on textfields - Allmost works...
+
   // Animate mobile menu up when clicking on compas icon//
   $('#navigate').click(function() {
     $('.mobile-nav').animate({
@@ -117,7 +121,9 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-
+$('#ordbog-desk').mouseover(function(){
+  mousewheel().pause();
+}) ;
 
 // Video afspiller
 
@@ -125,7 +131,7 @@ function showSlides() {
     $('.desktop-vplayer').show().fadeIn();
     $('.videoholder').show().html('<video  preload="auto" autoplay controls><source src="video/handball.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
     console.log('video');
-    
+
   });
   $('#story2').click(function(){
     $('.desktop-vplayer').show().fadeIn();
