@@ -34,10 +34,22 @@
 
   <div class="wrapper">
     <main class="all-content" >
-        
 
       <!-- Forside -->
       <article class="content" id="home">
+          
+  <section class="audio">
+          <audio controls autoplay loop hidden="hidden" id="audio">
+  <source src="Ocean_Waves-Mike_Koenig-980635527.oog" type="audio/ogg">
+  <source src="Ocean_Waves-Mike_Koenig-980635527.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div id="play" onclick="playAudio()" type="button"><img src="images/soundoff.png"></div> 
+<div id="pause" onclick="pauseAudio()" type="button"><img src="images/soundon.png"></div> 
+          </section>
+          
+
         <h1 id="forsidetitel" class="headline">Forside</h1>
         <picture class="swipe"><img src="images/arrow3.png" alt="arrow"></picture>
         <!-- baggrundsvideo -->
@@ -269,10 +281,13 @@
             at dele deres oplevelser med os på Instagram og Facebook og give det #kutterlife. På den måde kan vi alle følge med i hvad der sker på og omkring træskibshavnen, og skabe et endnu større fællesskab.
           </p>
         </section>
-
+    
             </section>
-
-        </div>
+          </div>
+            <section class="some">
+<a href="https://www.instagram.com/cafesokrates/"><img src="images/instagram.png" id="instagram"></a>
+                   <a href="https://www.facebook.com/kutterlife/"><img src="images/facebook.png" id="facebook"></a>
+            </section>
       </article>
       <!-- Slut kutterlife "siden" 2 -->
 

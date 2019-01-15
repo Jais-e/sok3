@@ -1,5 +1,7 @@
 'use strict'
 
+
+
 $(document).ready(function() {
 
   // play video even if whole file is not loaded //
@@ -18,7 +20,31 @@ $(document).ready(function() {
     e.preventDefault();
 
   });
+    
+      var x = document.getElementById("audio");
+function playAudio() { 
+  x.play(); 
+}; 
+function pauseAudio() { 
+  x.pause(); 
+}; 
+ var x = document.getElementById("audio");
+audio.volume=0.1; 
 
+    //Slukke for lyd//
+  $('#pause').click(function() {
+    $('#pause').css('visibility', 'hidden');
+    console.log('hej');
+    $('#play').show();
+  });
+    
+     //tænde for lyd//
+     $('#play').click(function() {
+    $('#pause').css('visibility', 'visible');
+    console.log('hej');
+    $('#play').hide();
+  });
+    
   // Allow vertical scroll on textfields - Allmost works...
 
   // Animate mobile menu up when clicking on compas icon//

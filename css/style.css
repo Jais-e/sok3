@@ -42,6 +42,31 @@ body {
 img{
   max-width: 100%;
 }
+
+  #play {
+    padding-top: 3%;
+    width: 10%;   
+        position: fixed;
+        padding-left: 88%;
+        z-index: 99999;
+         display: none;
+}
+#play:hover {
+    cursor:pointer;
+}
+
+#pause {
+  Padding-left: 10%;
+     padding-top: 3%;
+    width: 10%;   
+        position: fixed;
+        padding-left: 88%;
+        z-index: 99999;
+}
+
+#pause:hover {
+    cursor: pointer;
+}
 #credit {
   display: none;
 }
@@ -365,6 +390,7 @@ tr:nth-child(odd) {
   top: 0;
   left: 0;
 }
+
 @media screen and (min-width:480px){
 
 }
@@ -375,6 +401,23 @@ tr:nth-child(odd) {
 .vid-btn{
   cursor: pointer;
 
+}
+     #play {
+    padding-top: 1%;
+    width: 3%;   
+        position: fixed;
+        padding-left: 94%;
+        z-index: 99999;
+         display: none;
+}
+
+#pause {
+  Padding-left: 10%;
+     padding-top: 1%;
+    width: 3%;   
+        position: fixed;
+        padding-left: 94%;
+        z-index: 99999;
 }
 .videoholder{
   width: 70%;
@@ -772,6 +815,21 @@ left:15%;
   left:40%;
 }
 
+    .some {
+        position: absolute;
+        width: 14%;
+        display: flex;
+        margin-left: 23%;
+        margin-top: 40%;
+    }
+    #instagram {
+        width: 42%;
+        margin-left: 20%;
+    }
+    
+    .some:hover {
+        cursor:pointer;
+    }
 
 }
 @media screen and (min-width:1440px){}
