@@ -680,14 +680,20 @@ tr:nth-child(odd) {
   }
 
   #gps-img{
-    width: 40%;
-    margin-left: 30%;
+    width: 35%;
+    margin-left: 33%;
     height: auto;
   }
   #gps-img img{
     width: 100%;
     height: auto;
   }
+    
+    #gps-img p {
+        padding: 2%;
+        font-size: 1.4em ;
+        font-family: SegoePrint;
+    }
     
     #cafetekst {position: relative;
   width: 30%;
