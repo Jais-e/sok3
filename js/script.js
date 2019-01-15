@@ -87,18 +87,21 @@ $(document).ready(function() {
   $('#is').click(function() {
     console.log('is');
     $('#is').css('visibility', 'hidden');
+      $('#cafetekst').hide();
     $('#isinfo').fadeIn(300).show();
   });
 // Kaffeinfo pop-up + skjul"knap" //
   $('#kaffe').click(function() {
     console.log('kaffe');
     $('#kaffe').css('visibility', 'hidden');
+      $('#cafetekst').hide();
     $('#kaffeinfo').fadeIn(300).show();
   });
 // Saftinfo pop-up + skjul"knap" //
   $('#saft').click(function() {
     console.log('saft');
     $('#saft').css('visibility', 'hidden');
+$('#cafetekst').hide();
     $('#saftinfo').fadeIn(300).show();
 
   });
@@ -107,6 +110,11 @@ $(document).ready(function() {
     $('#is, #kaffe, #saft').css('visibility', 'visible');
     console.log('hej');
     $('.vareinfo').hide();
+      var screenwidth = $(window).width();
+    var minwidth = 480;
+      if (screenwidth>minwidth){
+          $('#cafetekst').show();
+      }; 
   });
 
 

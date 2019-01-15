@@ -240,7 +240,7 @@ h2 {
   display: none;
 }
 /* Padding på tekstfelterne */
-#history, #history-desk, #kutter, #kutter-desk, #ordbog {
+#history, #history-desk, #kutter, #kutter-desk, #ordbog, #cafetekst {
   padding: 1%;
 }
 #ordbog-desk h2{
@@ -688,11 +688,19 @@ tr:nth-child(odd) {
     width: 100%;
     height: auto;
   }
+    
+    #cafetekst {position: relative;
+  width: 30%;
+  height: auto;
+  left: 52%;
+  font-family: Segoe Print;
+  overflow: auto;}
+    
   .varer {
     position: absolute;
     width: 30%;
     bottom: 7%;
-    padding-left:30%;
+    padding-left:35%;
     animation-name: floating;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -759,10 +767,10 @@ tr:nth-child(odd) {
 .video-small{
   display: block;
   position: absolute;
-  width: 30%;
+  width: 32%;
   z-index: 9;
-  top: 28%;
-  margin-left: 15%;
+  top: 40%;
+  margin-left: 12%;
 }
 .video-small video {
   max-width: 100%;
