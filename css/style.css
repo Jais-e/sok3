@@ -45,7 +45,7 @@ img{
 
   #play {
     padding-top: 3%;
-    width: 10%;   
+    width: 10%;
         position: fixed;
         padding-left: 88%;
         z-index: 99999;
@@ -58,7 +58,7 @@ img{
 #pause {
   Padding-left: 10%;
      padding-top: 3%;
-    width: 10%;   
+    width: 10%;
         position: fixed;
         padding-left: 88%;
         z-index: 99999;
@@ -404,7 +404,7 @@ tr:nth-child(odd) {
 }
      #play {
     padding-top: 1%;
-    width: 3%;   
+    width: 3%;
         position: fixed;
         padding-left: 94%;
         z-index: 99999;
@@ -414,7 +414,7 @@ tr:nth-child(odd) {
 #pause {
   Padding-left: 10%;
      padding-top: 1%;
-    width: 3%;   
+    width: 3%;
         position: fixed;
         padding-left: 94%;
         z-index: 99999;
@@ -593,10 +593,10 @@ tr:nth-child(odd) {
     z-index: 9;
     border: 2px solid #8B4D48;
     background: rgba(254, 252, 235, 0.5);
-
   }
-  #kutter-desk{
-      position: absolute;
+
+  #kutter-desk {
+  position: absolute;
   padding: 1%;
   width: 25%;
   top: 0;
@@ -605,8 +605,9 @@ tr:nth-child(odd) {
   overflow: auto;
   }
 
-      .galleri {
-         position: relative;
+
+  .galleri {
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
@@ -822,11 +823,12 @@ left:15%;
         margin-left: 23%;
         margin-top: 40%;
     }
+
     #instagram {
         width: 42%;
         margin-left: 20%;
     }
-    
+
     .some:hover {
         cursor:pointer;
     }
