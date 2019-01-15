@@ -688,14 +688,14 @@ tr:nth-child(odd) {
     width: 100%;
     height: auto;
   }
-    
+
     #cafetekst {position: relative;
   width: 30%;
   height: auto;
   left: 52%;
   font-family: Segoe Print;
   overflow: auto;}
-    
+
   .varer {
     position: absolute;
     width: 30%;
@@ -793,8 +793,8 @@ tr:nth-child(odd) {
 #stories-headline{
   width: 25%;
   position: relative;
-  top: 45%;
-  left: 35%;
+  top: 50%;
+  left: 37%;
   font-size: 2.5em;
 }
 #mood-desk{
@@ -816,7 +816,7 @@ tr:nth-child(odd) {
 #story2{
 position: absolute;
 width: 20%;
-top: 30%;
+top: 35%;
 left:15%;
 }
 #story3{
