@@ -1,6 +1,14 @@
 'use strict'
 
-
+var x = document.getElementById("audio");
+function playAudio() {
+x.play();
+};
+function pauseAudio() {
+x.pause();
+};
+var x = document.getElementById("audio");
+audio.volume=0.1;
 
 $(document).ready(function() {
 
@@ -20,16 +28,8 @@ $(document).ready(function() {
     e.preventDefault();
 
   });
-    
-      var x = document.getElementById("audio");
-function playAudio() { 
-  x.play(); 
-}; 
-function pauseAudio() { 
-  x.pause(); 
-}; 
- var x = document.getElementById("audio");
-audio.volume=0.1; 
+
+
 
     //Slukke for lyd//
   $('#pause').click(function() {
@@ -37,14 +37,14 @@ audio.volume=0.1;
     console.log('hej');
     $('#play').show();
   });
-    
+
      //tænde for lyd//
      $('#play').click(function() {
     $('#pause').css('visibility', 'visible');
     console.log('hej');
     $('#play').hide();
   });
-    
+
   // Allow vertical scroll on textfields - Allmost works...
 
   // Animate mobile menu up when clicking on compas icon//
@@ -147,9 +147,7 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-$('#ordbog-desk').mouseover(function(){
-  mousewheel().pause();
-}) ;
+
 
 // Video afspiller
 
