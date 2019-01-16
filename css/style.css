@@ -235,6 +235,7 @@ h2 {
 }
 .text-field-desktop {
   display: none;
+  font-family: SegoePrint;
 }
 .text-field-desktop::-webkit-scrollbar, .text-field-mobile::-webkit-scrollbar {
   display: none;
@@ -684,6 +685,11 @@ tr:nth-child(odd) {
     margin-left: 30%;
     height: auto;
   }
+  #gps-img p{
+    padding-left: 1%;
+    font-size: 1.1em;
+  }
+
   #gps-img img{
     width: 100%;
     height: auto;
